@@ -71,6 +71,28 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.user123 {
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+  
+	object-fit: cover;
+}
+.profilePicture{
+	/* width: 300px;
+  	height: 300px;
+  	border-radius: 50%;
+  	background-image: url("/images/pirateAi2.png");
+  	background-position: center center;
+  	background-size: cover; */
+	  /* display: inline-block;
+	  width: 150px;
+	  height: 150px;
+	  border-radius: 50%;
+	  background-image: "/images/pirateAi2.png";
+	  object-fit: cover; */
+} 
 
 /* Basic */
 
@@ -3409,7 +3431,7 @@ input, select, textarea {
 				opacity: 0;
 				visibility: hidden;
 			}
-
+			
 		#intro.hidden {
 			pointer-events: none;
 			-moz-transform: translateY(2rem);
@@ -3618,7 +3640,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
-		margin: -4rem auto 0 auto;
+		margin: -20rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
@@ -4687,3 +4709,7 @@ input, select, textarea {
 		}
 
 	}
+
+.moveToTop{
+	height: 0px;
+}
