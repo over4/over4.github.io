@@ -3256,7 +3256,8 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			/* change the background image and the text background*/
+			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/western2.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
@@ -3418,8 +3419,9 @@ input, select, textarea {
 			margin-top: -0.25rem;
 			text-align: center;
 		}
-
+		/* top margin */
 		#intro + #header {
+			/* make it 100 to look nice */
 			margin-top: -20rem;
 		}
 
@@ -3476,14 +3478,19 @@ input, select, textarea {
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
 				min-height: 90vh;
+
+
+				/* padding: 3rem 2rem 1rem 2rem ;
+				min-height: 80vh; */
 			}
+			
 
 				#intro p br {
 					display: none;
 				}
 
 				#intro + #header {
-					margin-top: -14rem;
+					margin-top: -20rem;
 				}
 
 		}
@@ -3637,10 +3644,11 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
+		/* change opacity of the links */
+		background: rgb(0, 0, 0);
 		height: 4rem;
 		line-height: 4rem;
-		margin: -20rem auto 0 auto;
+		margin: -4rem auto 0 auto;
 		overflow: hidden;
 		padding: 0 2rem 0 0;
 		position: relative;
