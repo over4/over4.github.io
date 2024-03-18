@@ -3251,17 +3251,21 @@ input, select, textarea {
 
 		#wrapper > .bg {
 			position: absolute;
-			top: 0;
-			left: 0;
+			top: 0px;
+			left: 0px;
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
 			/* change the background image and the text background*/
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/western2.jpg");
-			background-size: auto,								auto,														100% auto;
-			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
-			background-attachment: scroll,								scroll,														scroll;
+			/* background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/western2.jpg");
+			background-size: auto,auto,200% auto;
+			background-position: center,center,top center;
+			background-repeat: repeat,no-repeat,no-repeat;
+			background-attachment: scroll,scroll,scroll; */
+			background-image: linear-gradient(to bottom, #333, #1a1a1a);
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
 			z-index: -1;
 		}
 
@@ -3422,7 +3426,7 @@ input, select, textarea {
 		/* top margin */
 		#intro + #header {
 			/* make it 100 to look nice */
-			margin-top: -20rem;
+			margin-top: 1rem;
 		}
 
 			#intro + #header .logo {
@@ -4719,5 +4723,5 @@ input, select, textarea {
 	}
 
 .moveToTop{
-	height: 0px;
+	height: 20px;
 }
